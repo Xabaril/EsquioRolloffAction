@@ -1,4 +1,4 @@
-name: "Test rollout task"
+name: "Test rolloff task"
 on:
   pull_request:
   push:
@@ -14,7 +14,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
       - name: esquio-rolloff
-        uses: ./esquio-rolloff@v1.0.0-beta.1
+        uses: ./esquio-rolloff
         with:
           esquioUrl: 'https://esquiodemoui.azurewebsites.net/'
           esquioApiKey: ${{ secrets.apikey }}
