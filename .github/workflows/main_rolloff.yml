@@ -18,4 +18,4 @@ jobs:
         with:
           esquioUrl: 'https://esquiodemoui.azurewebsites.net/'
           esquioApiKey: ${{ secrets.apikey }}
-          flagId: 55
+          flagId: 57
